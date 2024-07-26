@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitudes</title>
+    <link rel="stylesheet" href="css/solicitudes.css">
+</head>
+<body>
+
+    <H1 class="titulo">Solicitudes</H1>
+    <main class="container">
+
+        <div >
+            <form action="https://formsubmit.co/miguelmendoza.exc@gmail.com" method="POST">
+                <fieldset class="formulario formulario-datos">
+                    <legend>Llena tu solicitud</legend>
+                    <div>
+                        <label >Nombre Completo</label>
+                        <input type="text" name="Name" placeholder="Tu Nombre" required>
+                    </div>
+    
+                    <div>
+                        <label >Numero de nomina</label>
+                        <input type="text" name="EID" placeholder="Tu numero de nomina">
+                    </div>
+    
+                    <div>
+                        <label >Correo</label>
+                        <input type="text" name="Email" placeholder="Correo">
+                    </div>
+    
+                    <div>
+                        <Label >Sucursal</Label>
+                        <input type="text" name="Site" placeholder="Sucursal">
+                    </div>
+                    
+                    <div>
+                        <label >Numero de contacto</label>
+                        <input type="text" name="Phone" placeholder="De Trabajo o personal">
+                    </div>
+        
+                </fieldset>
+
+                <fieldset class="formulario formulario-Software">
+                    <legend>Software</legend>
+                    <div>
+                        <input type="checkbox" name="AD" id="">
+                        <label for="">Directorio Activo</label>
+                        <small>Correo, Teams, success Factor,Intranet,Webex </small>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="SAP" value="yes">
+                        <label for="">SAP</label>
+                        <small>Persona a Emular o transacciones especificas que necesita</small>
+                        <input type="text" name="Persona a Emular SAP" placeholder="Persona a Emular o transacciones especificas que necesita">
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="VPN" value="yes">
+                        <label for="">VPN</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="Share Drive" id="">
+                        <Label>Share Drive / Z://Comun</Label>
+                        <small>Persona a Emular o Especifique la ruta URL exacta  </small>
+                        <input type="text" name="Persona a emular Share drive" placeholder="Persona a Emular o Especifique la ruta URL exacta">
+                    </div>
+                </fieldset>
+
+                <fieldset class="formulario formulario-hardware">
+                    <legend>Hardware</legend>
+                    <div>
+                        <label for="">Equipo</label>
+                        <select name="opcion" id="">
+                            <option value="">Selecione una opcion</option>
+                            <option value="Ya tiene equipo">Ya tengo equipo para asignar</option>
+                            <option value="Necesita equipo">Necesito que se asigne un equipo</option>
+                        </select>
+                        <label for="">Numero de serie</label>
+                        <input type="text" name="Numero de serie" placeholder="Numero de serie">
+                    </div>
+
+                    <div>
+                        <label for="">Accesosrios</label>
+                        <small>Seleccione los Accesosrios necesarios</small>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="Headset" id="">
+                        <label for="">Headset (Audifonos/Diadema) </label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="Monitor" id="">
+                        <label for="">Monitor</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="Mouse" id="">
+                        <label for="">Mouse</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" name="Keyboard" id="">
+                        <label for="">Teclado</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="Doking station" id="">
+                        <label for="">Docking station</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="Otros" id="">
+                        <Label>Otros:</Label>
+                        <input type="text" name="Otros" placeholder="Escriba su respuesta">
+                    </div>
+
+
+
+                </fieldset>
+
+                <fieldset class="formulario formulario-otros">
+                    <legend>Otros</legend>
+                    <label for="" >Solicitudes adicionales</label>
+                    <textarea name="Solicitudes adicionales" id="" placeholder="Escriba detalladamente la solicitud que no haya sido cubierta en los formularios anteriores"></textarea>
+                </fieldset>
+                <input type="submit" value="Enviar">
+                <input type="hidden" name="_captcha" value="true">
+
+            </form>
+        </div>
+
+        
+
+    </main>
+    
+</body>
+</html>

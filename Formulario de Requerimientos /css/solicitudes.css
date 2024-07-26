@@ -1,0 +1,36 @@
+:root{
+    --primario:#f0f4f0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+} 
+
+
+body{
+    background-color: var(--primario);
+}
+
+.titulo{
+    text-align: center;
+}
+
+.container{
+    width: 90%;
+    gap: 2rem;
+}
+
+.formulario,.formulario fieldset{
+    background-color: white;
+    border-radius: 1rem;
+    
+}
+
+.formulario-datos{
+    
+}
