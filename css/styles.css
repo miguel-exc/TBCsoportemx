@@ -24,42 +24,38 @@ body{
 .hero{
     top: 5rem;
     left: 0rem;
+    display: grid;
+    grid-template-rows: 180px 100px 70px 50px;
+    justify-items: center;
+    align-items: center;
+
     background-image: url(../img/Background-llantas.jpg);
     margin: 0%;
     background-size: cover;
     background-position: center;
     position: absolute;
-    width: 100%;
+    min-width: 100%;
     height: 60%;
     border-radius: 1rem;
 }
 .logo{
-    position: relative;
-    top: 15%;
-    left: 44%;
-    margin: 0;
     width: 15rem;
     
 }
 .titulo{
-    position: relative;
-    text-align: center;
-    top: 18%;
+    top: 35%;
     font-size: 5rem;
     font-weight: 300;
     margin: 0;
 }
 .subtitulo{
-    position: relative;
     text-align: center;
-    top: 18%;
+    top: 45%;
     font-size: 2rem;
     margin: 0;
 }
 .btn-contacto{
-    position: relative;
-    left: 37%;
-    top:20%;
+    top:53%;
     width: 35rem;
     height: 5rem;
     border-radius: 1rem;
